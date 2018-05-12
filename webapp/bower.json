@@ -1,0 +1,31 @@
+{
+  "name": "ISU Greek Week 2016",
+  "homepage": "https://github.com/snowguy13/isu-greek-week",
+  "authors": [
+    "Tom Scallon <tssnowguy13@gmail.com>"
+  ],
+  "description": "A website for Iowa State's 2016 Greek Week.",
+  "main": "gw2016.js",
+  "moduleType": [],
+  "keywords": [
+    "Iowa",
+    "State",
+    "University",
+    "Greek",
+    "Week",
+    "2016"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs-plugins": "~1.0.3",
+    "mobile-detect": "hgoebl/mobile-detect.js#^1.3.1"
+  }
+}

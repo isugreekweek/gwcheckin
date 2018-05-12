@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iowa State Greek Week</title>
+  <link rel="stylesheet" href="gw2016.css" />
+
+  <!-- favicon stuff -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/image/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/image/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/image/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/image/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/image/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/image/apple-touch-icon-120x120.png">
+  <link rel="icon" type="image/png" href="/image/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/image/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/image/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/image/manifest.json">
+  <link rel="shortcut icon" href="/image/favicon.ico">
+  <meta name="msapplication-TileColor" content="#a4d275">
+  <meta name="msapplication-config" content="/image/browserconfig.xml">
+  <meta name="theme-color" content="#a4d275">
+
+  <!-- mobile friendly! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <script data-main="js/init.js" src="js/lib/requirejs/require.js"></script>
+
+  <!-- Google Analytics Tracking Code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-75586892-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>
+
+<body>
+  <main class="main">
+    <div id="big-countdown-wrapper">
+      <h3>Greek Week starts in...</h3>
+      <div class="countdown"></div>
+      <h4><strong>Cardinal, Gold & Greek</strong></h4>
+    </div>
+    <div class="section-container">
+      <div class="button-container">
+        <button class="button" data-href="https://events-stuorg.sws.iastate.edu/application/waiver/?a=edit&tid=132">General Waiver</button>
+        <button class="button" data-href="https://events-stuorg.sws.iastate.edu/application/waiver/?a=edit&tid=129">Lip Sync Waiver</button>
+        <!--button class="button" data-href="https://billz.universitytees.com/bird_banks/16830/signups/new">Apparel Order Form</button-->
+        <button class="button" data-href="http://www.firstgiving.com/soiowa/ames-greek-polar-plunge-2017">Polar Bear Plunge Sign-Up</button>
+				<button class="button" data-href="http://pbp-point-tracker.herokuapp.com/point-tracker.php">Polar Bear Plunge Point Tracker</button>
+      </div>
+      <section class="section" name="Apparel">
+        <div id="apparel-grid" class="grid"></div>
+        <div id="apparel-form-part-a">
+          <input name="netid" type="text" placeholder="To start, enter your NetID" />
+        </div>
+        <div id="apparel-form-part-b"></div>
+      </section>
+      <section class="section" name="Rulebook"></section>
+      <section class="section" name="Teams"></section>
+      <section class="section" name="Brackets">
+        <div id="bracket-button-container"></div>
+        <iframe id="bracket-view" class="full" frameborder="0" scrolling="auto" allowtransparency>Doh! Something went wrong and we couldn't display the bracket...</iframe>
+      </section>
+      <section class="section" name="LiveStream" data-display-name="Live Stream">
+        <!--iframe id="live-stream-frame" class="full" src="https://www.ustream.tv/embed/22240409?html5ui" style="z-index: 1; border: 0 none transparent;"  webkitallowfullscreen allowfullscreen frameborder="no"></iframe-->
+			</section>
+    </div>
+    <button id="section-back-button" class="button">◄ Back</button>
+    <div id="tweet-wrapper">
+      <a class="label" href="https://twitter.com/greekweekISU?lang=en">@greekweekISU</a>
+      <div class="tweet-container"></div>
+    </div>
+  </main>
+</body>
+</html>
